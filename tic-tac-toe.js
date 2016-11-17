@@ -46,3 +46,39 @@ function middlemiddlecircle(){
   var canvas = document.getElementById("game-board")
   canvas.appendChild(middleMiddleCircle)
 }
+function rightmiddlecircle(){
+  var rightMiddleCircle = document.createElementNS(namespace, "circle")
+  rightMiddleCircle.setAttribute("cx", 245)
+  rightMiddleCircle.setAttribute("cy", 145)
+  rightMiddleCircle.setAttribute("r", 40)
+  rightMiddleCircle.setAttribute("fill", "green" )
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(rightMiddleCircle)
+}
+function leftdowncircle(){
+  var leftDownCircle = document.createElementNS(namespace, "circle")
+  leftDownCircle.setAttribute("cx", 45)
+  leftDownCircle.setAttribute("cy", 245)
+  leftDownCircle.setAttribute("r", 40)
+  leftDownCircle.setAttribute("fill","yellow")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(leftDownCircle)
+}
+function middledowncircle(){
+  var middleDownCircle = document.createElementNS(namespace, "circle")
+  middleDownCircle.setAttribute("cx", 145)
+  middleDownCircle.setAttribute("cy", 245)
+  middleDownCircle.setAttribute("r", 40)
+  middleDownCircle.setAttribute("fill", "green" )
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(middleDownCircle)
+}
+function rightdowncircle(){
+  var rightDownCircle = document.createElementNS(namespace, "circle")
+  rightDownCircle.setAttribute("cx", 245)
+  rightDownCircle.setAttribute("cy", 245)
+  rightDownCircle.setAttribute("r", 40)
+  rightDownCircle.setAttribute("fill", "yellow" )
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(rightDownCircle)
+}
