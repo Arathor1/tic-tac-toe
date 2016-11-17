@@ -1,3 +1,48 @@
 // Write all your JavaScript code in this file!
 // You can use the namespace variable that's defined here.
 var namespace = "http://www.w3.org/2000/svg"
+function leftuppercircle(){
+  var rightCircle = document.createElementNS(namespace, "circle")
+  rightCircle.setAttribute("cx", 45)
+  rightCircle.setAttribute("cy", 45)
+  rightCircle.setAttribute("r", 40)
+  rightCircle.setAttribute("fill", "yellow")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(rightCircle)
+}
+ function middleuppercircle(){
+   var middleCircle = document.createElementNS(namespace, "circle")
+   middleCircle.setAttribute("cx", 145)
+   middleCircle.setAttribute("cy", 45)
+   middleCircle.setAttribute("r", 40)
+   middleCircle.setAttribute("fill", "green")
+   var canvas = document.getElementById("game-board")
+   canvas.appendChild(middleCircle)
+ }
+function rightuppercircle(){
+  var rightCircle = document.createElementNS(namespace, "circle")
+  rightCircle.setAttribute("cx", 245)
+  rightCircle.setAttribute("cy", 45)
+  rightCircle.setAttribute("r", 40)
+  rightCircle.setAttribute("fill", "yellow")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(rightCircle)
+}
+function leftmiddlecircle(){
+  var leftMiddleCircle = document.createElementNS(namespace, "circle")
+  leftMiddleCircle.setAttribute("cx", 45)
+  leftMiddleCircle.setAttribute("cy", 145)
+  leftMiddleCircle.setAttribute("r", 40)
+  leftMiddleCircle.setAttribute("fill", "green")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(leftMiddleCircle)
+}
+function middlemiddlecircle(){
+  var middleMiddleCircle = document.createElementNS(namespace, "circle")
+  middleMiddleCircle.setAttribute("cx", 145)
+  middleMiddleCircle.setAttribute("cy", 145)
+  middleMiddleCircle.setAttribute("r", 40)
+  middleMiddleCircle.setAttribute("fill", "yellow")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(middleMiddleCircle)
+}
