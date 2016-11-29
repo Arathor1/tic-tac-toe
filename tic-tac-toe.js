@@ -8,7 +8,7 @@ function leftuppercircle(){
   rightCircle.setAttribute("cx", 45)
   rightCircle.setAttribute("cy", 45)
   rightCircle.setAttribute("r", 40)
-  rightCircle.setAttribute("fill", "yellow")
+  rightCircle.setAttribute("fill", "green")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(rightCircle)
   turn = "player2"
@@ -21,7 +21,7 @@ function leftuppercircle(){
    middleCircle.setAttribute("cx", 145)
    middleCircle.setAttribute("cy", 45)
    middleCircle.setAttribute("r", 40)
-   middleCircle.setAttribute("fill", "green")
+   middleCircle.setAttribute("fill", "yellow")
    var canvas = document.getElementById("game-board")
    canvas.appendChild(middleCircle)
    turn = "player1"
@@ -34,7 +34,7 @@ function rightuppercircle(){
   rightCircle.setAttribute("cx", 245)
   rightCircle.setAttribute("cy", 45)
   rightCircle.setAttribute("r", 40)
-  rightCircle.setAttribute("fill", "yellow")
+  rightCircle.setAttribute("fill", "green")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(rightCircle)
   turn = "player2"
@@ -47,7 +47,7 @@ function leftmiddlecircle(){
   leftMiddleCircle.setAttribute("cx", 45)
   leftMiddleCircle.setAttribute("cy", 145)
   leftMiddleCircle.setAttribute("r", 40)
-  leftMiddleCircle.setAttribute("fill", "green")
+  leftMiddleCircle.setAttribute("fill", "yellow")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(leftMiddleCircle)
   turn = "player1"
@@ -60,7 +60,7 @@ function middlemiddlecircle(){
   middleMiddleCircle.setAttribute("cx", 145)
   middleMiddleCircle.setAttribute("cy", 145)
   middleMiddleCircle.setAttribute("r", 40)
-  middleMiddleCircle.setAttribute("fill", "yellow")
+  middleMiddleCircle.setAttribute("fill", "green")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(middleMiddleCircle)
   turn = "player2"
@@ -73,7 +73,7 @@ function rightmiddlecircle(){
   rightMiddleCircle.setAttribute("cx", 245)
   rightMiddleCircle.setAttribute("cy", 145)
   rightMiddleCircle.setAttribute("r", 40)
-  rightMiddleCircle.setAttribute("fill", "green" )
+  rightMiddleCircle.setAttribute("fill", "yellow" )
   var canvas = document.getElementById("game-board")
   canvas.appendChild(rightMiddleCircle)
   turn = "player1"
@@ -86,7 +86,7 @@ function leftdowncircle(){
   leftDownCircle.setAttribute("cx", 45)
   leftDownCircle.setAttribute("cy", 245)
   leftDownCircle.setAttribute("r", 40)
-  leftDownCircle.setAttribute("fill","yellow")
+  leftDownCircle.setAttribute("fill","green")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(leftDownCircle)
   turn = "player2"
@@ -99,7 +99,7 @@ function middledowncircle(){
   middleDownCircle.setAttribute("cx", 145)
   middleDownCircle.setAttribute("cy", 245)
   middleDownCircle.setAttribute("r", 40)
-  middleDownCircle.setAttribute("fill", "green" )
+  middleDownCircle.setAttribute("fill", "yellow" )
   var canvas = document.getElementById("game-board")
   canvas.appendChild(middleDownCircle)
   turn = "player1"
@@ -112,7 +112,7 @@ function rightdowncircle(){
   rightDownCircle.setAttribute("cx", 245)
   rightDownCircle.setAttribute("cy", 245)
   rightDownCircle.setAttribute("r", 40)
-  rightDownCircle.setAttribute("fill", "yellow" )
+  rightDownCircle.setAttribute("fill", "green" )
   var canvas = document.getElementById("game-board")
   canvas.appendChild(rightDownCircle)
   turn = "player2"
