@@ -8,7 +8,7 @@ function leftuppercircle(){
   rightCircle.setAttribute("cx", 45)
   rightCircle.setAttribute("cy", 45)
   rightCircle.setAttribute("r", 40)
-  rightCircle.setAttribute("fill", "yellow")
+  rightCircle.setAttribute("fill", "green")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(rightCircle)
   turn = "player2"
